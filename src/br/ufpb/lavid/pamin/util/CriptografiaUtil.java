@@ -17,7 +17,9 @@ public class CriptografiaUtil implements java.io.Serializable{
             digest.update(senha.getBytes());
             BASE64Encoder encoder = new BASE64Encoder ();
             
-            senhaCriptografada =  encoder.encode(digest.digest());   //aqui ? onde retorna a String    
+            senhaCriptografada =  encoder.encode(digest.digest());   //aqui ? onde retorna a String
+            
+            /** nova linha exemplo */
             
         }catch(Exception e){
             e.printStackTrace();
