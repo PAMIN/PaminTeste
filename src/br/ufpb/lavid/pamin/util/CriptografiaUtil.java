@@ -20,6 +20,7 @@ public class CriptografiaUtil implements java.io.Serializable{
             senhaCriptografada =  encoder.encode(digest.digest());   //aqui ? onde retorna a String
             
             /** nova linha exemplo */
+            /** nova linha exemplo */
             
         }catch(Exception e){
             e.printStackTrace();
